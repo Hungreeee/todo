@@ -1,0 +1,15 @@
+.initial-state {
+  opacity: 0;
+}
+
+.after-state {
+  opacity: 1;
+}
+
+.nice-button:hover > .initial-state {
+  opacity: 1;
+}
+
+.nice-button:hover > .after-state {
+  opacity: 0;
+}
